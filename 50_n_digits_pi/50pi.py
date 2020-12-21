@@ -1,10 +1,3 @@
-# """
-# Pi = SUM k=0 to infinity 16^-k [ 4/(8k+1) - 2/(8k+4) - 1/(8k+5) - 1/(8k+6) ]
-# ref: https://www.math.hmc.edu/funfacts/ffiles/20010.5.shtml
-# """
-
-# from __future__ import division
-# import math
 from __future__ import division
 import math
 from decimal import Decimal as D
