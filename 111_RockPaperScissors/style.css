@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #24272E;
+}
+
+header{
+    background-color:white;
+    padding: 20px;
+}
+
+header > h1{
+    color:#25272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.score-board{
+    margin:25px auto;
+    border: 4.5px solid white;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: Asap, sans-serif;
+    padding: 15px;
+    position: relative;
+}
+
+.badge{
+    background: #E25840;
+    font-size: 16px;
+    padding: 2.5px;
+    font-family: Asap, sans-serif;
+}
+
+#user{
+    position: absolute;
+    top:30px;
+    left:-25px;
+}
+
+#comp{
+    position: absolute;
+    position: absolute;
+    top:30px;
+    right:-35px;
+}
+
+.result{
+    text-align: center;
+    font-family: Asap;
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.choices{
+    margin: 20px;
+    text-align: center;
+}
+.choice{
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 0px 10px;
+    display: inline-block;
+    align-content: center;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: #6f737a;
+}
+
+#action-message{
+    text-align: center;
+    font-size: 33px;
+    font-family: Asap;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.green-glow{
+    border:4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border:4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow{
+    border:4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
